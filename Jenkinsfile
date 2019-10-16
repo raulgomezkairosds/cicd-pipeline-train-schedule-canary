@@ -38,7 +38,7 @@ pipeline {
                 }
             }
         }
-        stage ('DeployCanary'){
+        stage ('DeployCanary') {
             when {
                 branch 'master'
             }
